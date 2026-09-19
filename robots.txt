@@ -4,4 +4,4 @@ Disallow: /nogoogle/
 User-agent: *
 Disallow: /private/
 
-Sitemap: https://sridhar-consultancy-and-IT-services.vercel.app/sitemap.xml
+Sitemap: https://sridhar-consultancy-and-it-services.vercel.app/sitemap.xml
