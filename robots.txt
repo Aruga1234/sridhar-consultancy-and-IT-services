@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogoogle/
+
+User-agent: *
+Disallow: /private/
+
+Sitemap: https://sridhar-consultancy-and-IT-services.vercel.app/sitemap.xml

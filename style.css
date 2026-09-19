@@ -1,0 +1,443 @@
+/* =====================================
+   SRIDHAR CONSULTANCY AND IT SERVICES
+   CUSTOM CSS
+===================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  color: #333;
+  background: #ffffff;
+}
+
+/* NAVBAR */
+
+.custom-navbar {
+  background: rgba(7, 31, 64, 0.97);
+  padding: 15px 0;
+  transition: 0.3s;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  margin-left: 12px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #4da3ff;
+}
+
+/* HERO */
+
+.hero-section {
+  background:
+    linear-gradient(
+      rgba(5, 28, 58, 0.92),
+      rgba(7, 49, 92, 0.92)
+    );
+  color: white;
+  min-height: 100vh;
+}
+
+.hero-section h1 {
+  font-size: 3.3rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-weight: 600;
+  color: #65b5ff;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  max-width: 680px;
+  margin-bottom: 30px;
+}
+
+.hero-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 45px 25px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(7px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.hero-icon {
+  font-size: 5rem;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* COMMON SECTIONS */
+
+.section-padding {
+  padding: 90px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.section-title span {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #1268c4;
+}
+
+.section-title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.light-section {
+  background: #f6f8fb;
+}
+
+.dark-section {
+  background: #071f40;
+  color: white;
+}
+
+/* ABOUT */
+
+.about-box {
+  background: #f8f9fa;
+  padding: 35px;
+  border-radius: 15px;
+  border-left: 5px solid #1268c4;
+}
+
+.custom-list {
+  list-style: none;
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+.custom-list li {
+  margin-bottom: 12px;
+}
+
+.custom-list li::before {
+  content: "✓";
+  color: #1268c4;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* FOUNDER */
+
+.founder-card {
+  padding: 40px;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.profile-icon {
+  font-size: 8rem;
+  color: #1268c4;
+}
+
+/* SERVICES */
+
+.service-card {
+  height: 100%;
+  background: white;
+  border-radius: 15px;
+  padding: 35px 25px;
+  border: 1px solid #e8e8e8;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.service-card i {
+  font-size: 2.8rem;
+  color: #1268c4;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.service-card h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* TECHNOLOGIES */
+
+.tech-box {
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 30px 10px;
+  transition: 0.3s;
+}
+
+.tech-box:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.tech-box h4 {
+  margin: 0;
+  font-weight: 700;
+}
+
+/* PROCESS */
+
+.process-card {
+  height: 100%;
+  padding: 30px;
+  border-radius: 15px;
+  background: white;
+  border: 1px solid #e5e5e5;
+  position: relative;
+}
+
+.process-card span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d5e9ff;
+}
+
+.process-card h4 {
+  margin: 10px 0 15px;
+  font-weight: 700;
+}
+
+/* PROJECTS */
+
+.project-card {
+  height: 100%;
+  text-align: center;
+  background: white;
+  padding: 40px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-7px);
+}
+
+.project-card i {
+  font-size: 3rem;
+  color: #1268c4;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* MISSION & VISION */
+
+.mission-card {
+  height: 100%;
+  padding: 40px;
+  border-radius: 15px;
+  background: #f6f8fb;
+  border-left: 5px solid #1268c4;
+}
+
+.mission-card i {
+  font-size: 3rem;
+  color: #1268c4;
+}
+
+.mission-card h3 {
+  margin: 15px 0;
+  font-weight: 700;
+}
+
+/* CONTACT */
+
+.contact-section {
+  background: #071f40;
+  color: white;
+}
+
+.contact-info {
+  padding-right: 25px;
+}
+
+.contact-item {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.contact-item i {
+  font-size: 1.8rem;
+  color: #61b4ff;
+}
+
+.contact-item p {
+  margin-bottom: 0;
+}
+
+.contact-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  background: white;
+  color: #333;
+  padding: 35px;
+  border-radius: 15px;
+}
+
+.contact-form .form-control,
+.contact-form .form-select {
+  padding: 13px;
+  border-radius: 8px;
+}
+
+.contact-form .form-control:focus,
+.contact-form .form-select:focus {
+  border-color: #1268c4;
+  box-shadow: 0 0 0 0.2rem rgba(18, 104, 196, 0.15);
+}
+
+/* FOOTER */
+
+footer {
+  background: #03152c;
+  color: #d5d5d5;
+  padding: 45px 0 25px;
+}
+
+footer h4 {
+  color: white;
+  font-weight: 700;
+}
+
+footer a {
+  color: #80c2ff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+/* SCROLL TO TOP */
+
+#scrollTopBtn {
+  display: none;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 999;
+  border: none;
+  background: #1268c4;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  cursor: pointer;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+#scrollTopBtn:hover {
+  background: #0b4f96;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+
+  .hero-section {
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+
+  .hero-section h1 {
+    font-size: 2.6rem;
+  }
+
+  .navbar-nav {
+    padding-top: 15px;
+  }
+
+  .navbar-nav .nav-link {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .section-padding {
+    padding: 70px 0;
+  }
+
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+  }
+
+  .founder-card {
+    padding: 25px;
+  }
+
+  .profile-icon {
+    font-size: 6rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .hero-section h1 {
+    font-size: 1.9rem;
+  }
+
+  .hero-buttons .btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0 !important;
+  }
+
+  .contact-form {
+    padding: 25px 18px;
+  }
+}
